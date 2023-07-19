@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+@font-face {
+    font-weight: 700; /* Соответствует значению normal */
+    font-family: Bold;
+    src: url("/font/TTNorms-Bold.ttf");
+  }
+@font-face {
+    font-weight: 500; /* Соответствует значению bold */
+    font-family: Medium;
+    src: url("/font/TTNorms-Medium.ttf");
+  }
+body{
+    background-color: #000;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+}
+.osn-body{
+    align-items: center;
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+}
+.first-frame{
+    width: 1200px;
+    height: 800px;
+    background-color: #171717;
+    border-radius: 20px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.header-b{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.imglogo{
+    margin-right: 10px;
+}
+.pla-logo-text{
+    margin-right: 870px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.past-frame{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+.platext{
+    color: #979797;
+    font-family: TT Norms;
+    font-size: 15px;
+    font-weight: 500;
+}
+.pic-frame{
+    width: 1100px;
+    height: 581px;
+    border-radius: 20px;
+    border: 2px solid #3E3E3E;
+    background-image: url(https://media.discordapp.net/attachments/860478569632104498/1129831889461592216/2023-07-16_00.47.46.png?width=1286&height=676);
+}
+.hui{
+    position: absolute;
+    padding: 13px 27px;
+    border-radius: 500px;
+    background: #EBB617;
+    color: #171717;
+    font-family: TT Norms;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 520px;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+.hui:hover{
+    transition: 0.3s;
+    background: #ffcb2e;
+    cursor: pointer;
+}
+.paast-framem{
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-left: 50px;
+}
+.profile-name-and-auth{
+    display: block;
+    margin-left: 17px;
+}
+.prof-icon{
+    border-radius: 7px;
+}
+.prof-name{
+    color: #FFF;
+    font-weight: 700;
+    font-family: TT Norms;
+    font-size: 15px;
+}
+.prof-auth{
+    color: #18DE61;
+    font-family: TT Norms;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.exit-btn{
+    transition: 0.3s;
+    width: 52px;
+    height: 52px;
+    background-color: #404040;
+    border: 2px solid #525252;
+    border-radius: 7px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 32px;
+}
+.play-btn{
+    width: 376px;
+    height: 64px;
+    background-color: #16A34A;
+    border-radius: 7px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 69px;
+    transition: 0.3s;
+}
+.play-btn:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #20d361;
+}
+.play-btn-text{
+    color: #F4FAF6;
+    font-family: TT Norms;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.file-btn{
+    padding: 17px 22px;
+    background-color: #404040;
+    border: 2px solid #525252;
+    border-radius: 7px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    transition: 0.3s;
+}
+.exit-btn:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #4b4b4b;
+}
+.file-btn:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #4b4b4b;
+}
+.file-btn-text{
+    color: #A3A3A3;
+    font-family: TT Norms;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
